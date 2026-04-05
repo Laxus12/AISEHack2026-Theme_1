@@ -62,4 +62,4 @@ The final submitted pipeline emphasizes stability, efficient transfer learning, 
 * Key Libraries: `terratorch`, `albumentations`, `rasterio`
 
 ## 4. AI Assistance Declaration
- This project made use of Claude (Anthropic, claude-sonnet-4.6) as an AI coding assistant during Phase 2 development : 57].  Claude acted primarily as a technical accelerator for reviewing code, updating loss formulations, refactoring the augmentation pipeline, and implementing the RLE submission generator : 58, 63, 64, 65].  All architectural decisions, training configurations, and scientific methodology remain entirely the work of Team Quantum and Al : 67, 70].
+ This project made use of Claude (Anthropic, claude-sonnet-4.6) as an AI coding assistant during Phase 2 development.  Claude acted primarily as a technical accelerator for reviewing code, updating loss formulations, refactoring the augmentation pipeline, and implementing the RLE submission generator.  All architectural decisions, training configurations, and scientific methodology remain entirely the work of Team Quantum and Al.
