@@ -6,7 +6,7 @@ This repository contains the pipeline for **3-class flood segmentation** (No Flo
 
 ---
 
-## 1. Initial Approach (Archived)
+## 1. Initial Approach (3_Class_Flood_Pixel_Segmentation.ipynb)
 Our initial development strategy focused on a heavy, complex pipeline aiming for maximum theoretical performance:
 * **Architecture:** An ensemble of Prithvi EO v2 600M (60% weight) and 300M (40% weight) models.
 * **Inputs:** 8-channel inputs combining optical imagery with SAR and GEE-derived auxiliary data (DEM, slope, rainfall, water maps)
@@ -21,7 +21,7 @@ The initial approach encountered critical silent data failures and pipeline road
 
 ---
 
-## 2. Final Submission Pipeline
+## 2. Final Submission Pipeline (composite_focal+diceloss .ipynb)
 The final submitted pipeline emphasizes stability, efficient transfer learning, and precise data handling over raw model scale
 
 ### Architecture
